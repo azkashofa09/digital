@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('s.jpg') no-repeat center center fixed; /* Ganti dengan URL gambar tata surya */
+    background-size: cover;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparan */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    max-width: 90%; /* Responsif */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+/* Responsif untuk perangkat kecil */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px; /* Ukuran font lebih kecil di mobile */
+    }
+
+    p {
+        font-size: 18px; /* Ukuran font lebih kecil di mobile */
+    }
+
+    button {
+        font-size: 14px; /* Ukuran font tombol lebih kecil di mobile */
+    }
+}
+
